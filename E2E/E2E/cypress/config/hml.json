@@ -1,0 +1,17 @@
+{
+   
+    "env": {
+        "url": "https://automacaocombatista.herokuapp.com/treinamento/home",
+        "url_api": "https://serverest.dev/",
+        "email": "",
+        "password": "",
+        "nome_logado": "",
+        "db": {
+            "user": "",
+            "password": "",
+            "host": "",
+            "port": "",
+            "database": ""
+        }
+    }
+}

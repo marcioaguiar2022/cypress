@@ -1,0 +1,16 @@
+{
+    "env": {
+        "url": "http://127.0.0.1:8080/",
+        "url_api": "https://serverest.dev/",
+        "url_api2": "<url_api_prod_local>",
+        "email": "",
+        "password": "",
+        "db": {
+            "user": "",
+            "password": "",
+            "host": "",
+            "port": "",
+            "database": ""
+          }
+    }
+}
