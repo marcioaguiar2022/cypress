@@ -9,4 +9,5 @@ cypress/screenshots
 xunit.xml
 E2E\node_modules
 node_modules
+package-lock.json
 
