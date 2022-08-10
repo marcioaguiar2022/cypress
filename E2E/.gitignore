@@ -5,6 +5,7 @@ node_modules
 cypress/videos
 cypress/reports
 cypress/screenshots
+cypress/fixture/data
 # Logs
 logs
 *.log

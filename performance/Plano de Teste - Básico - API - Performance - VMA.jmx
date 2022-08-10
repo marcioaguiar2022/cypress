@@ -43,7 +43,7 @@
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Massa - Emails" enabled="true">
         <stringProp name="delimiter">,</stringProp>
         <stringProp name="fileEncoding"></stringProp>
-        <stringProp name="filename">/Users/marcioaguiar/Desktop/projeto_base_gui_api_tests/cypress/fixtures/data/Massa-Emails.txt</stringProp>
+        <stringProp name="filename">/Users/marcioaguiar/Desktop/test/cypress/E2E/cypress/fixtures/data/Massa-Emails.txt</stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
         <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">true</boolProp>
@@ -55,7 +55,7 @@
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Massa - Id&apos;s de Produtos" enabled="true">
         <stringProp name="delimiter">,</stringProp>
         <stringProp name="fileEncoding"></stringProp>
-        <stringProp name="filename">/Users/marcioaguiar/Desktop/projeto_base_gui_api_tests/cypress/fixtures/data/Massa-Ids-Produtos.txt</stringProp>
+        <stringProp name="filename">/Users/marcioaguiar/Desktop/test/cypress/E2E/cypress/fixtures/data/Massa-Ids-Produtos.txt</stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
         <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">true</boolProp>
