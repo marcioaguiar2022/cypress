@@ -71,7 +71,7 @@ for (let i = 0; i < 10; i++) {
                         id = resp.body['_id'];
                         resolve(id)
                         console.log(id)
-                        cy.writeFile('cypress/fixtures/data/Massa-Ids-Produtos.txt', id + ', ', { flag: 'a+' })
+                        cy.writeFile('cypress/fixtures/data/Massa-Ids-Produtos.txt', id + ', \n', { flag: 'a+' })
                     })
                 })
 

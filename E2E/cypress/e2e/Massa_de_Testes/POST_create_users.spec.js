@@ -2,9 +2,10 @@
 for (let i = 0; i < 10; i++) {
     describe('generate data-create users api '+i, () => {
         const faker = require('faker-br');
+        const fs = require('fs'); // or `import * as fs from 'fs'` if you're using ES2015+
         let nome = faker.name.firstName();
         let email = faker.internet.email();
-        let opAdmin = ["true", "false"];
+        let opAdmin = ["true"/*, "false"*/];
         let administrador = opAdmin[Math.floor(Math.random() * opAdmin.length)];
         /* let pass =
              faker.random.number({
@@ -22,6 +23,7 @@ for (let i = 0; i < 10; i++) {
         })
 
         it('sucess', () => {
+            const fs = require('fs'); // or `import * as fs from 'fs'` if you're using ES2015+
             cy.create_users_api(Cypress.env('url_api'), nome, email, password, administrador)
 
                 .then((resp) => {
@@ -37,8 +39,9 @@ for (let i = 0; i < 10; i++) {
                 })
             console.log(email)
             //cy.writeFile('cypress/fixtures/data/emails_newUsers.txt', "'"+email+"-"+password+"'"+', ', { flag: 'a+' })
-            cy.writeFile('cypress/fixtures/data/Massa-Emails.txt', email + ', ', { flag: 'a+' })
-
+            cy.writeFile('cypress/fixtures/data/Massa-Emails.txt', email + ', \n', { flag: 'a+' })
+            
+            
         })
 
     })
